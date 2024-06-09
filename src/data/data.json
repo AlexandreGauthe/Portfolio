@@ -1,0 +1,28 @@
+{
+    "id": "a55ab65e",
+    "title": "Booki, agence de voyage",
+    "cover":"",
+    "pictures": [],
+    "description":"Projet réalisé dans le cadre de ma formation de developpeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyage en ligne. Le projet consistait en la réalisation de la page d'acceuil du site. Des resultats de recherche fictifs ainsi que des suggestions sont présentés sous formes de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple",
+    "technologies":[],
+    "link":""
+},
+
+{
+    "id": "b44cd54r",
+    "title": " Optimisation et débuggage du site de photographie",
+    "cover": "",
+    "pictures":[],
+    "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormement apprcié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code eux-même, la sémantique html et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets",
+    "technologies":[],
+    "link":""
+},
+{
+    "id": "c66as78i",
+    "title": "Kasa, Agence immobilière",
+    "cover": "",
+    "pictures":[],
+    "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du developpement du front-end du site d'une agence immobilière réalisé avec le framework javascript React. Utilisations du Jsx et des composants react, des props, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site",
+    "technologies":[],
+    "link":""
+}

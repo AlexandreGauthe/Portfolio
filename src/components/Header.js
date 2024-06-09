@@ -5,18 +5,17 @@ import { Link } from "react-router-dom";
 import "../styles/Header.scss"
 export default function Header(){
 
-const {Link} = Anchor; 
+
     return (
         <header>
-            <h1> Alexandre Gauthe</h1>
+            <div className="logo">
+                <h1> Alexandre Gauthe</h1>
+            </div>    
             <nav className="menu">
-                <Anchor>
-                    <Link href="#accueil">Accueil</Link>
-                    <Link href="#about">A propos</Link>
-                    <Link href="#projet">Projets</Link>
-                    <Link href="#contact">Contact</Link>
-                </Anchor>
-
+                <Link className="menu__link" href="#accueil" to="#accueil">Accueil</Link>
+                <Link  className="menu__link" to="#about">A propos</Link>
+                <Link  className="menu__link" to="#projet">Projets</Link>
+                <Link  className="menu__link" to="#contact">Contact</Link>
             </nav>
         </header>    
     )
