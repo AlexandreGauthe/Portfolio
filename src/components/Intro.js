@@ -6,9 +6,7 @@ export default function Intro(){
     return(
         <div id="accueil">
             <h1>Bonjour et bienvenue</h1>
-            <p>Je suis Alexandre Gauthe développeur web front-end et passionné
-                d’informatique en général
-            </p>
+            <p className="typing">Je suis Alexandre Gauthe développeur web front-end</p>
         </div>    
     )
 }
