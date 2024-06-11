@@ -16,8 +16,15 @@ export default function About(){
       const prevSlideOnclick = (event) =>{
         selectedSlide >=  1 ? setSelectedSlide(selectedSlide - 1) : setSelectedSlide(selectedSlide + listSlides.length -1)
       }
-    console.log(listSlides);
-    console.log(slidesContent);  
+    useEffect(() =>{
+      const timeId = setTimeout(()=>{
+       selectedSlide <= 1 && selectedSlide < 3? setSelectedSlide(selectedSlide + 1) : setSelectedSlide(0)
+      },5000);
+      return () => {
+        clearTimeout(timeId);
+      }
+    }, [selectedSlide]);
+
     return(
             <div id="about">
                 <h2>A propos</h2>

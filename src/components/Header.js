@@ -1,6 +1,5 @@
 // Composant d'en tête présent dans toutes les pages //
 import React from "react";
-import { Anchor} from "antd";
 import { Link } from "react-router-dom";
 import "../styles/Header.scss"
 export default function Header(){
