@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Sites web & applications",
+        "content": "Réalisations de sites ou application web modernes, performants et répondant au mieux aux besoins UI & UX"
+    },
+    {
+        "title": "Accessibilité et SEO",
+        "content": "L’accessibilité sera toujours dans mes priorités de développement, votre projet sera donc optimisé en ce sens ainsi que son référencement SEO afin d’apparaître au mieux dans les moteurs de recherches"
+    },
+    {
+        "title": "Technologies utilisées",
+        "content":"Html 5 Css3/Sass JS React Node.js express mongoDB"
+    }
+]    

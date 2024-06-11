@@ -1,0 +1,15 @@
+@import "./Variables.scss";
+
+.slider-block{
+    height: 350px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.slider-block__slider-text{
+    display: flex;
+    flex-direction: column;
+    font-family: $main-font-familiy;
+    color: $third-text-color;
+    
+}

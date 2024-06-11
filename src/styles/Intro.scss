@@ -4,14 +4,14 @@
     width: 100%;
     text-align: center;
     border-radius: 10px;
-    margin-top: 150px;
-    h1{
+    margin-top: 200px;
+    h2{
         width: 60%;
         background: radial-gradient(circle, rgba(87,135,199,1) 35%, rgba(52,124,212,1) 100%);
         border-radius: 60px;
         font-family: $main-font-familiy;
         color: white;
-        font-size: 7.1em;
+        font-size: 6.5em;
         margin-left: 350px;
         padding-bottom: 20px;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -23,9 +23,9 @@
         flex-wrap: wrap;
         width: 59%;
         color: $secondary-text-color;
-        font-family: $secondary-font-family;
         font-weight: bold;
         margin-left: 370px;
+        margin-top: 180px;
         animation: typing 3.5s steps(40), blink-caret 1s step-end infinite;
         white-space: nowrap;
         letter-spacing: .05em; /* Adjust as needed */
