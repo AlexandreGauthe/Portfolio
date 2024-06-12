@@ -1,20 +1,18 @@
 // Composant d'en tête présent dans toutes les pages //
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as HashLink } from 'react-router-hash-link';
 import "../styles/Header.scss"
 export default function Header(){
-
-
     return (
         <header>
             <div className="logo">
                 <h1> Alexandre Gauthe</h1>
             </div>    
             <nav className="menu">
-                <Link className="menu__link" href="#accueil" to="#accueil">Accueil</Link>
-                <Link  className="menu__link" to="#about">A propos</Link>
-                <Link  className="menu__link" to="#projet">Projets</Link>
-                <Link  className="menu__link" to="#contact">Contact</Link>
+                <HashLink  className="menu__link" to="/#accueil">Accueil</HashLink>
+                <HashLink  className="menu__link" to="/#about">A propos</HashLink>
+                <HashLink  className="menu__link" to="/#projet">Projets</HashLink>
+                <HashLink  className="menu__link" to="/#contact">Contact</HashLink>
             </nav>
         </header>    
     )
