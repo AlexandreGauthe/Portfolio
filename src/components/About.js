@@ -19,7 +19,7 @@ export default function About(){
     useEffect(() =>{
       const timeId = setTimeout(()=>{
        selectedSlide <= 1 && selectedSlide < 3? setSelectedSlide(selectedSlide + 1) : setSelectedSlide(0)
-      },5000);
+      },4500);
       return () => {
         clearTimeout(timeId);
       }
