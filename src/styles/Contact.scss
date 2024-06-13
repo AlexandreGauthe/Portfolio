@@ -1,0 +1,81 @@
+@import "./Variables.scss";
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    background: radial-gradient(circle, rgba(87,135,199,1) 35%, rgba(52,124,212,1) 100%);
+    .form_title{
+        width: 80%;
+        text-align: center;
+        font-family: $main-font-familiy;
+        color: white;
+        font-size: 4em;
+        border-top: 8px solid white;
+        border-radius: 50%;
+        padding-top: 70px;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    }
+    .form_text{
+        color: white;
+        font-family: $main-font-familiy;
+        font-size: 2em;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    }.form-container{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .form-container input{
+        width: 800px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        color: $secondary-text-color;
+        font-family: $secondary-font-family;
+        font-size: 2em;
+    }
+    .form-container label{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        color: $third-text-color;
+        font-family: $secondary-font-family;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .form-container textarea{
+        width: 1000px;
+        height: 400px;
+        resize: none;
+        margin-bottom: 50px;
+        color: $secondary-text-color;
+        font-family: $secondary-font-family;
+        font-size: 2em;
+    }
+    .form-container .button{
+        text-align: center;
+    }
+}
