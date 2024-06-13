@@ -10,6 +10,7 @@
     border: 4px solid $third-text-color;
     border-radius: 10%;
     box-shadow: $third-text-color 0px 2px 4px, $third-text-color 0px 7px 13px -3px, $third-text-color 0px -3px 0px inset;
+    cursor: pointer;
     p{
         font-family: $main-font-familiy;
         color: $secondary-text-color;

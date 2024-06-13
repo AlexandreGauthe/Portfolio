@@ -1,14 +1,20 @@
 [
     {
         "title" : "Sites web & applications",
-        "content": "Réalisations de sites ou application web modernes, performants et répondant au mieux aux besoins UI & UX"
+        "content": "Réalisations de sites ou application web modernes, performants et répondant au mieux aux besoins UI & UX",
+        "logos":"",
+        "alt" : "" 
     },
     {
         "title": "Accessibilité et SEO",
-        "content": "L’accessibilité sera toujours dans mes priorités de développement, votre projet sera donc optimisé en ce sens ainsi que son référencement SEO afin d’apparaître au mieux dans les moteurs de recherches"
+        "content": "L’accessibilité sera toujours dans mes priorités de développement, votre projet sera donc optimisé en ce sens ainsi que son référencement SEO afin d’apparaître au mieux dans les moteurs de recherches",
+        "logos": "",
+        "alt": ""
     },
     {
-        "title": "Technologies utilisées",
-        "content":"HTML 5 CSS3/SASS JS React Node.js express mongoDB"
+        "title": "Technologies et outils maitrisés",
+        "content":"",
+        "logos":"https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121703&authkey=%21AKvWKKrm8n4Rx-c&width=600&height=338",
+        "alt":"HTML5,CSS3,JS,REACT,Node JS,Express,MongDB,Github,Gimp,Blender"        
     }
 ]    

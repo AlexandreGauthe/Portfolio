@@ -16,11 +16,17 @@
         font-size: 3em;
         color: $third-text-color;
         margin: auto;
+        margin-top: 200px;
+        margin-right: 20px;
+        cursor: pointer;
     }
     .slider-block__right-icon{
         font-size: 3em;
         color: $third-text-color;
         margin: auto;
+        margin-top: 200px;
+        margin-left: 20px;
+        cursor: pointer;
     }
     .slider-block__slider-text{
         display: flex;
@@ -46,5 +52,9 @@
         color: white;
         text-align: center;
         margin: auto;
+    }
+    .logos{
+        margin-left: 50px;
+        margin-top: 20px;
     }
 }

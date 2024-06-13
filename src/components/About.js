@@ -9,6 +9,8 @@ import "../styles/About.scss";
 export default function About(){
     const listSlides = slides.map(slide=>[slide.title]);
     const slidesContent = slides.map(slide=>[slide.content]);
+    const slidesLogos = slides.map(slide=>[slide.logos]);
+    const slidesAlt = slides.map(slide=>[slide.alt]);
     const [selectedSlide, setSelectedSlide] = useState(0);
     const nextSlideOnClick = (event) =>{
         selectedSlide <= listSlides.length -2 ? setSelectedSlide(selectedSlide + 1) : setSelectedSlide(0);
@@ -19,7 +21,7 @@ export default function About(){
     useEffect(() =>{
       const timeId = setTimeout(()=>{
        selectedSlide <= 1 && selectedSlide < 3? setSelectedSlide(selectedSlide + 1) : setSelectedSlide(0)
-      },4500);
+      },5000);
       return () => {
         clearTimeout(timeId);
       }
@@ -33,7 +35,7 @@ export default function About(){
                 rigoureux et passionné, alors ne cherchez plus !  Je vous accompagnerai tout au long du processus de développement 
                 de votre projet et ce jusqu’à sa mise en service. </p>
             <h2> Compétences </h2>
-             <Slider  title={listSlides[selectedSlide]} content={slidesContent[selectedSlide]} nextOnClick={nextSlideOnClick} style={listSlides.length===1 ?{display:"none"} : null} prevOnClick={prevSlideOnclick} />
+             <Slider  name={listSlides[selectedSlide]} content={slidesContent[selectedSlide]}  src={slidesLogos[selectedSlide]}  alt={slidesAlt[selectedSlide]} title={slidesAlt[selectedSlide]} nextOnClick={nextSlideOnClick} style={listSlides.length===1 ?{display:"none"} : null} prevOnClick={prevSlideOnclick} />
             </div>            
     )
 }
