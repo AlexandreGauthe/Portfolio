@@ -9,6 +9,7 @@
         width: 60%;
         text-align: center;
         margin-right: 120px;
+        margin-bottom: 100px;
         padding-top: 50px;
         font-family: $main-font-familiy;
         color: $main-text-color;
@@ -24,7 +25,8 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 100px;
         margin-bottom: 100px;
+        margin-left: 100px;
     }
 }
