@@ -3,11 +3,11 @@ import React from "react";
 import emailjs from '@emailjs/browser';
 import "../styles/Contact.scss";
 import {useRef} from 'react';
+import { useState } from "react";
 
 export const Contact = () => {
 	const form = useRef();
-
-    const sendEmail = (e) => {
+	const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -23,7 +23,23 @@ export const Contact = () => {
 		  console.log(error.text);	
         },
       );
+	  e.target.reset();
   };
+  const [currentClass, setCurrentClass] = useState("success")
+  const [invisible, setInvisible] = useState(true)
+
+  const handleClick = (event)=>{
+	if(currentClass === "success"){
+		setCurrentClass("success--show")
+		setInvisible(false)
+			setTimeout(() => {
+				setCurrentClass("success");
+			  }, 5000);
+		}else{
+			setCurrentClass("success");
+		}
+}
+	
     return(
         <div id="contact">
 	        <div className="container">
@@ -41,7 +57,8 @@ export const Contact = () => {
 				        <input type="email" name="email" id="email"/>
 				        <label aria-label="Entrez votre message">Message</label>
 				        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-				        <input className="button" type="submit" aria-label="Cliquez pour envoyer" value="Envoyer"/>
+				        <input className="button" type="submit" aria-label="Cliquez pour envoyer" value="Envoyer" onClick={handleClick}/>
+						<span className={currentClass} >Merci, votre message à bien été envoyé, je vous répondrai au plus vite !</span>
 					</form>
 		        </div>
 	        </div>
