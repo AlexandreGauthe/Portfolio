@@ -3,9 +3,9 @@ import "../styles/Footer.scss";
 
 export default function Footer(){
     return(
-       <div> 
-            <h2>Alexandre Gauthe</h2>
-            <ul>
+       <div className="footer-block"> 
+            <h2>Réseaux sociaux :</h2>
+            <ul className="link-block">
                 <li>Linkedin</li>
                 <li>Facebook</li>
                 <li>Twitter/X</li>

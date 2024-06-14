@@ -1,0 +1,27 @@
+@import "./Variables.scss";
+
+.footer-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    h2{
+        text-align: center;
+        font-family: $main-font-familiy;
+        font-size: 4em;
+        color: $main-text-color
+    }
+    .link-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+    li{
+        font-family: $secondary-font-family;
+        font-size: 3em;
+        color: $secondary-text-color;
+    }    
+}
