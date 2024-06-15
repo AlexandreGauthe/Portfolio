@@ -9,7 +9,7 @@
     align-items: center;
     margin: auto;
     img{
-      margin-top: 180px;
+      margin-top: 220px;
       margin-left: 100px;
       width: 30%;
       object-fit: cover;
@@ -34,6 +34,7 @@
       text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
            0px 8px 13px rgba(0,0,0,0.1),
            0px 18px 23px rgba(0,0,0,0.1);
+      margin-top: 250px;        
     }
     .typing{  
         display: flex;
@@ -41,7 +42,7 @@
         width: 80%;
         color: $secondary-text-color;
         font-weight: bold;
-        margin-top: 50px;
+        margin-top: 150px;
         animation: typing 3.5s steps(40), blink-caret 1s step-end infinite;
         white-space: nowrap;
         letter-spacing: .05em; 

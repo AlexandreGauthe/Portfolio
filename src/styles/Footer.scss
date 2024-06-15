@@ -7,21 +7,26 @@
     justify-content: flex-start;
     align-items: center;
     h2{
+        width: 60%;
         text-align: center;
         font-family: $main-font-familiy;
         font-size: 4em;
-        color: $main-text-color
+        font-weight: bold;
+        color: $main-text-color;
+        margin:auto;
+        margin-top: 40px;
+        margin-bottom: 70px;
     }
     .link-block{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 40px;
-        list-style: none;
+        gap: 130px;
     }
-    li{
-        font-family: $secondary-font-family;
-        font-size: 3em;
-        color: $secondary-text-color;
-    }    
+    a{
+        width: 30%;
+    }
+    img{
+        width: 70%;
+    }
 }
