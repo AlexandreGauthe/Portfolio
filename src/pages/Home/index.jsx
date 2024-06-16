@@ -5,10 +5,11 @@ import About from "../../components/About";
 import Projet from "../../components/Projet";
 import {Contact} from "../../components/Contact"
 import Footer from "../../components/Footer";
+
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <div className="home_block">
+      <Header/>
       <Intro />
       <About />
       <Projet />

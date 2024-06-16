@@ -1,0 +1,15 @@
+@import "./Variables.scss";
+
+.error_block{   
+    padding: 50px;
+    text-align: center;
+    font-family: $secondary-font-family;
+    font-size: 6em;
+    color: $main-text-color;
+    font-weight: bold;
+}
+.error__link{
+    color: $main-text-color;
+    font-family: $main-font-familiy;
+    font-size: 0.7em;
+}
