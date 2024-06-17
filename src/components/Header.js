@@ -2,9 +2,9 @@
 import React from "react";
 import { HashLink} from 'react-router-hash-link';
 import "../styles/Header.scss"
-export default function Header(){
+export default function Header(props){
     return (
-        <header>
+        <header position>
             <div className="logo">
                 <h1>Alexandre Gauthe</h1>
             </div>    

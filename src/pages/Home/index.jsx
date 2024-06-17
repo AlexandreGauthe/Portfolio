@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 export default function Home() {
   return (
     <div className="home_block">
-      <Header/>
+      <Header className="home_header"/>
       <Intro />
       <About />
       <Projet />

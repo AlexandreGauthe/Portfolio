@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Home from'./pages/Home';
 import Projet from './pages/Projet';
 import Error from './pages/Error';
+import "./styles/Index.scss"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 

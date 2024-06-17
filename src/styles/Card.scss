@@ -11,17 +11,22 @@
     border-radius: 10%;
     box-shadow: $third-text-color 0px 2px 4px, $third-text-color 0px 7px 13px -3px, $third-text-color 0px -3px 0px inset;
     cursor: pointer;
+    a{
+        text-decoration: none;
+    }
     p{
         font-family: $main-font-familiy;
         color: $secondary-text-color;
         font-weight: bold;
         font-size: 2.2em;
-        border-bottom: 4.5px solid $main-text-color;
-        border-radius: 10%;
-        padding-bottom: 15px;
+        padding-bottom: 5px;
+        text-align: center;
+        margin-right: 40px;
+        margin-bottom: 50px;
     }
     .cards__link{
-        margin-left: 27px;
+        width: 100%;
+        margin-left: 57px;
     }
     img{
         object-fit: contain;

@@ -8,8 +8,7 @@ export default function Card(props){
     return (
         projets.map((projet) =>( 
             <div className="cards" key={projet.id} imageid={projet.id}>
-                <p className="card-title">{projet.title}</p>
-                <Link  className="cards__link" to={`/projet/${projet.id}`}><img className="card-image" src={projet.cover} alt={projet.title}></img></Link>
+                <Link  className="cards__link" to={`/projet/${projet.id}`}><p className="card-title">{projet.title}</p><img className="card-image" src={projet.cover} alt={projet.title}></img></Link>
             </div>
         ))
     )
