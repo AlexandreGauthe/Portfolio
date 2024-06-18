@@ -4,7 +4,7 @@ import { HashLink} from 'react-router-hash-link';
 import "../styles/Header.scss"
 export default function Header(props){
     return (
-        <header position>
+        <header style = {props.style}>
             <div className="logo">
                 <h1>Alexandre Gauthe</h1>
             </div>    

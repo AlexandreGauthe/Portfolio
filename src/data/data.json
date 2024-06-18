@@ -3,38 +3,37 @@
         "id": "a55ab65e",
         "title": "Booki, agence de voyage",
         "cover":"https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121691&authkey=%21ADyiTGlMb-ZDJik&width=630&height=300",
-        "pictures": ["https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121658&authkey=%21AEQU00FgZEm4X08&width=360&height=125",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121660&authkey=%21APLZlw_d2HVoW7g&width=360&height=177",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121659&authkey=%21ACKOl1ovckj4rCw&width=360&height=144",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121661&authkey=%21AE1gEbpvyBoGUKA&width=360&height=55",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121662&authkey=%21ADNW3DIuPHMuMdY&width=360&height=628",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121663&authkey=%21AJXaLJ4tSgQBSQQ&width=360&height=589",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121664&authkey=%21ACvErc1EEBySOi0&width=360&height=791",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121666&authkey=%21AMhoWnXRNoP6k7E&width=360&height=791",
-                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121665&authkey=%21ANNBkq0LpHWd01A&width=360&height=567"],
-        "description":"Projet réalisé dans le cadre de ma formation de developpeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyage en ligne. Le projet consistait en la réalisation de la page d'acceuil du site. Des resultats de recherche fictifs ainsi que des suggestions sont présentés sous formes de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple",
+        "pictures": ["https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121736&authkey=%21AIQpAZVZT8LC8UA&width=850&height=289",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121735&authkey=%21ADXVITsCJqv9tPE&width=850&height=392",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121737&authkey=%21AIC41th8yUKxWoQ&width=850&height=345",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121738&authkey=%21AKsPieplTxKsS_s&width=371&height=374",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121739&authkey=%21AF6GIwGi-NMudGY&width=375&height=326",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121740&authkey=%21AG2IBR4eAoEV278&width=371&height=327",
+                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121741&authkey=%21AOUt63kogyliZLk&width=372&height=328"
+                    ],
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyages en ligne. Le projet consistait en la réalisation de la page d'accueil du site. Des résultats de recherche fictives ainsi que des suggestions sont présentés sous forme de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple",
         "technologies":["HTML 5",
                         "CSS 3"],
-        "link":[]
+        "link":["https://github.com/AlexandreGauthe/Projet_2_Booki.git"]
+        
     },
     {
         "id": "b44cd54r",
         "title": "Nina Carducci, photographe",
         "cover": "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121692&authkey=%21AOu007l_VtpOL3E&width=648&height=300",
-        "pictures":["https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121668&authkey=%21AKd0iJr9cpOZyqU&width=360&height=127",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121671&authkey=%21ANxWNsQI0A0JGE4&width=360&height=127",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121669&authkey=%21ADZzxqGtXGWtdcc&width=360&height=127",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121672&authkey=%21ABOxNXAKtVeZbEk&width=360&height=127",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121670&authkey=%21AHw5_-rPi8EiW6c&width=360&height=664",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121673&authkey=%21AECt_E4sIusL1AY&width=360&height=157",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121674&authkey=%21AGEf3065NBJb_j4&width=360&height=267",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121675&authkey=%21AL5VJ1DU2rPgGhM&width=360&height=267",
-                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121676&authkey=%21AJPoRaLkI0X1G8s&width=360&height=202"],
-        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormement apprcié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code eux-même, la sémantique html et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets",
+        "pictures":["https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121728&authkey=%21AEySzPz4hs6BfSY&width=850&height=398",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121731&authkey=%21ACo_tLT_fRSH9qE&width=850&height=334",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121729&authkey=%21AF57senD1QJxpEs&width=850&height=205",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121730&authkey=%21ADYZ_NPgqXZoJBw&width=850&height=313",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121732&authkey=%21AK-jHh6h2JTXDwI&width=850&height=388",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121734&authkey=%21AHev2GG14EKzijg&width=850&height=398",
+                    "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121733&authkey=%21AGa45q7sE3_Dhg8&width=850&height=398"
+                ],           
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormément apprécié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code lui-même, la sémantique HTML et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets",
         "technologies":["HTML 5",
                         "CSS 3",
                         "JS"],
-        "link":[]
+        "link":["https://alexandregauthe.github.io/Projet_5_Nina_Carducci/"]
     },
     {
         "id": "c66as78i",
@@ -47,11 +46,11 @@
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121726&authkey=%21AM3Qk_vNf3JCbtE&width=550&height=324",
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121724&authkey=%21AEg-swUr6y4TzkI&width=370&height=308"
                    ],
-        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du developpement du front-end du site d'une agence immobilière réalisé avec le framework javascript React. Utilisations du Jsx et des composants react, des props, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site",
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du développement du front-end du site d'une agence immobilière réalisé avec le framework Javascript React. Utilisations du Jsx et des composants react, des propos, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site",
         "technologies":["HTML 5",
                         "CSS 3",
                         "JS",
                         "React"],
-        "link":[]
+        "link":["https://github.com/AlexandreGauthe/Projet_6_Kasa.git"]
     }
 ]    
