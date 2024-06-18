@@ -19,7 +19,10 @@ export default function Projet(){
         else {
             document.title = `${selectedProject.title}`;}},[selectedProject,navigate]);
     if(!selectedProject) {return null;}
-    const {title,description,pictures,technologies,link} = selectedProject;
+    const {title,description,pictures,technologies,link,points,diffculties,solutions} = selectedProject;
+    const list_points = points.map((point) => <li>{point}</li>);
+    const list_diffculties = diffculties.map((diffculty) => <li>{diffculty}</li>);
+    const list_solutions = solutions.map((solution) => <li>{solution}</li>);
     const nextPictOnClick = (event) =>{
         selectedPicture <= pictures.length -2 ? setSelectedPicture(selectedPicture + 1) : setSelectedPicture(0);
         }
@@ -41,16 +44,22 @@ export default function Projet(){
                 <div className="project_boards">
                     <div className="main_points">
                         <h3>Points principaux du projet :</h3>
+                        <ul>{list_points}</ul>
                     </div>
                     <div className="difficulties">
-                        <h3>Difficultés rencontrées :</h3>
+                        <h3>Difficultés du projet :</h3>
+                        <ul>{list_diffculties}</ul>
                     </div>
                     <div className="solutions">
                         <h3>Solutions employées :</h3>
+                        <ul>{list_solutions}</ul>
                     </div>
                 </div>
-            </div>    
-           <Footer />
+                <div className="project-link">
+                    <a id="github_link" href={link} target="blank">Lien vers le projet</a>  
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }

@@ -11,11 +11,19 @@
                      "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121740&authkey=%21AG2IBR4eAoEV278&width=371&height=327",
                      "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121741&authkey=%21AOUt63kogyliZLk&width=372&height=328"
                     ],
-        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyages en ligne. Le projet consistait en la réalisation de la page d'accueil du site. Des résultats de recherche fictives ainsi que des suggestions sont présentés sous forme de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple",
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyages en ligne. Le projet consistait en la réalisation de la page d'accueil du site. Des résultats de recherche fictives ainsi que des suggestions sont présentés sous forme de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple.",
         "technologies":["HTML 5",
                         "CSS 3"],
-        "link":["https://github.com/AlexandreGauthe/Projet_2_Booki.git"]
-        
+        "link":["https://github.com/AlexandreGauthe/Projet_2_Booki.git"],
+        "points":["Mise en place d'un environnement de décveloppement",
+                "Utilisation de Git/Github et versionnage de projet",
+                "Intégration de maquette avec html5/CSS3",
+                "Responsive Design"],
+        "diffculties":["Réalisation des cards",
+                       "Adapter le site à tout les médias (responsive)"],
+        "solutions":["Utilisation des mesures relatives",
+                     "Utilisation de la propriété flexbox",
+                     "Etude en amont de la sémantique HTML tout support"]                           
     },
     {
         "id": "b44cd54r",
@@ -29,11 +37,21 @@
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121734&authkey=%21AHev2GG14EKzijg&width=850&height=398",
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121733&authkey=%21AGa45q7sE3_Dhg8&width=850&height=398"
                 ],           
-        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormément apprécié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code lui-même, la sémantique HTML et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets",
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormément apprécié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code lui-même, la sémantique HTML et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets.",
         "technologies":["HTML 5",
                         "CSS 3",
                         "JS"],
-        "link":["https://alexandregauthe.github.io/Projet_5_Nina_Carducci/"]
+        "link":["https://alexandregauthe.github.io/Projet_5_Nina_Carducci/"],
+        "points":["Débuggage d'un site web",
+                  "Optimisation des performances et du code",
+                  "Optimisation du SEO et de l'accesibilité"
+                  ],
+        "diffculties":["Débuggage de la galerie type lightbox",
+                      "Obtenir un score lighthouse de 90%"],
+        "solutions":["Utilisation du module JS fslightbox",
+                     "Optimisation de la sémantique html",
+                     "Optimisations de toutes les images",
+                     "Ajout des 'alt' des images et de ARIA Labels"]       
     },
     {
         "id": "c66as78i",
@@ -46,11 +64,26 @@
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121726&authkey=%21AM3Qk_vNf3JCbtE&width=550&height=324",
                     "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121724&authkey=%21AEg-swUr6y4TzkI&width=370&height=308"
                    ],
-        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du développement du front-end du site d'une agence immobilière réalisé avec le framework Javascript React. Utilisations du Jsx et des composants react, des propos, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site",
+        "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du développement du front-end du site d'une agence immobilière réalisé avec le framework Javascript React. Utilisations du Jsx et des composants react, des propos, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site.",
         "technologies":["HTML 5",
                         "CSS 3",
                         "JS",
                         "React"],
-        "link":["https://github.com/AlexandreGauthe/Projet_6_Kasa.git"]
+        "link":["https://github.com/AlexandreGauthe/Projet_6_Kasa.git"],
+        "points":["Mise en place d'un evironnement de developpement React",
+                  "Utilisation du framework React",
+                  "Utilisation des 'props' et des 'hooks'",
+                  "Récupérer et afficher des données d'une url à une autre",
+                  "Création et utilisations de composants ré-utilisable",
+                  "Utilisation de SASS"
+                 ],
+        "diffculties":["Compréhension générale de React",
+                       "Transmettre des données via les url",
+                       "Réalisation d'animations CSS"],
+        "solutions":["Utilisation de react-creat-app",
+                     "Utilisation des 'props' pour rendre réutilisable les composants",
+                     "Utilisation des hooks 'useParams', 'useEffect et useState",
+                     "Réalisation des animations avec SASS"
+                    ]
     }
 ]    
