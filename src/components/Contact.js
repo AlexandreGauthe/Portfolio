@@ -35,9 +35,9 @@ export const Contact = () => {
 				<div className="form-container">
 			        <form  ref={form} onSubmit={sendEmail}>
 				        <label aria-label="Entrez votre nom">Nom</label>
-				        <input required type="text" pattern="[A-Za-z ]+" name="user_name"  id="user_name"/>
+				        <input required type="text" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]+$" name="user_name"  id="user_name"/>
                         <label aria-label="Entrez votre prénom">Prénom</label>
-				        <input required type="text" pattern="[A-Za-z ]+" name="user_first_name"id="user_first_name"/>
+				        <input required type="text" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\- ]+$" name="user_first_name"id="user_first_name"/>
 						<label aria-label="Entrez votre numéro de téléphone">Téléphone</label>
 						<input required type="tel" pattern="[0-9]+" name="phone" id="phone"/>
 				        <label aria-label="Entrez votre adresse mail">Email</label>
