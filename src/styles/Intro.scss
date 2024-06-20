@@ -39,7 +39,7 @@
     .typing{  
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 81%;
         color: $secondary-text-color;
         font-weight: bold;
         margin-top: 150px;
@@ -55,7 +55,7 @@
     /* effet "Typing"*/
 @keyframes typing {
     from { width: 0 }
-    to { width: 60% }
+    to { width: 80% }
   }
   
   /* Effet du curseur*/

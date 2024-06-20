@@ -18,6 +18,5 @@ export default function Slider(props,nextOnClick,prevOnClick){
             </div>
             <span className="slideshow-block__count" count={props.count}>{props.count}</span>
         </div>
-        
     )
 }

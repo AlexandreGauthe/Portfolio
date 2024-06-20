@@ -1,3 +1,5 @@
+// Page sur laquelle sera affiché le projet choisi sur la page d'acceuil //
+
 import React from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
@@ -14,21 +16,27 @@ export default function Projet(){
     const  { projetid } = useParams();
     const navigate = useNavigate();
     const selectedProject = projets.find((projet) => projet.id === projetid);
-    useEffect(() =>{ if (!selectedProject){
-        navigate("/error");}
-        else {
-            document.title = `${selectedProject.title}`;}},[selectedProject,navigate]);
-    if(!selectedProject) {return null;}
+    
+    useEffect(() =>{ 
+        if (!selectedProject){
+            navigate("/error");
+        }else {
+            document.title = `${selectedProject.title}`;
+            }},[selectedProject,navigate]);
+    
+    if(!selectedProject) {return null;};
+
     const {title,description,pictures,technologies,link,points,diffculties,solutions} = selectedProject;
     const list_points = points.map((point) => <li>{point}</li>);
     const list_diffculties = diffculties.map((diffculty) => <li>{diffculty}</li>);
     const list_solutions = solutions.map((solution) => <li>{solution}</li>);
+    
     const nextPictOnClick = (event) =>{
         selectedPicture <= pictures.length -2 ? setSelectedPicture(selectedPicture + 1) : setSelectedPicture(0);
-        }
+    }
     const prevPictOnclick = (event) =>{
         selectedPicture >=  1 ? setSelectedPicture(selectedPicture - 1) : setSelectedPicture(selectedPicture + pictures.length -1)
-        } 
+    } 
     return (
         <div>
            <Header style={{position:"static"}}/>
