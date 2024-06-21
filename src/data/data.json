@@ -2,19 +2,21 @@
     {
         "id": "a55ab65e",
         "title": "Booki, agence de voyage",
-        "cover": "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121691&authkey=%21ADyiTGlMb-ZDJik&width=630&height=300",
+        "cover": "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962167/Booki_cover_nlbmlz.png",
         "pictures": [
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121736&authkey=%21AIQpAZVZT8LC8UA&width=850&height=289",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121735&authkey=%21ADXVITsCJqv9tPE&width=850&height=392",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121737&authkey=%21AIC41th8yUKxWoQ&width=850&height=345",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121738&authkey=%21AKsPieplTxKsS_s&width=371&height=374",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121739&authkey=%21AF6GIwGi-NMudGY&width=375&height=326",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121740&authkey=%21AG2IBR4eAoEV278&width=371&height=327",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121741&authkey=%21AOUt63kogyliZLk&width=372&height=328"
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962168/Booki_1_glensa.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962169/Booki_2_uonbxe.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962171/Booki_3_iar0tp.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962172/Booki_4_ktl05f.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962173/Booki_5_vrni5o.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962175/Booki_6_eykv8k.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962176/Booki_7_zhyhod.png"
         ],
         "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit d'un site pour une agence de voyages en ligne. Le projet consistait en la réalisation de la page d'accueil du site. Des résultats de recherche fictives ainsi que des suggestions sont présentés sous forme de cards. La principale difficulté du projet venait de la partie responsive de celui-ci. Le desing change sensiblement sur un mobile par exemple.",
-        "technologies": [ "HTML 5",
-                        "CSS 3" ],
+        "technologies":[ 
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964057/html_yre93l.png"
+        ],
+        "alt": ["HTML&CSS3"],
         "link":["https://github.com/AlexandreGauthe/Projet_2_Booki.git"],
         "points":[
             "Mise en place d'un environnement de décveloppement",
@@ -35,20 +37,22 @@
     {
         "id": "b44cd54r",
         "title": "Nina Carducci, photographe",
-        "cover": "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121692&authkey=%21AOu007l_VtpOL3E&width=648&height=300",
+        "cover": "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962245/Nina_cover_tjajbn.png",
         "pictures":[
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121728&authkey=%21AEySzPz4hs6BfSY&width=850&height=398",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121731&authkey=%21ACo_tLT_fRSH9qE&width=850&height=334",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121729&authkey=%21AF57senD1QJxpEs&width=850&height=205",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121730&authkey=%21ADYZ_NPgqXZoJBw&width=850&height=313",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121732&authkey=%21AK-jHh6h2JTXDwI&width=850&height=388",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121734&authkey=%21AHev2GG14EKzijg&width=850&height=398",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121733&authkey=%21AGa45q7sE3_Dhg8&width=850&height=398"
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962240/Nina_1_y6pu5y.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962234/Nina_2_ghooqm.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962236/Nina_3_hhcdxe.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962237/NIna_4_zaohic.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962239/Nina_5_pmkmgg.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962241/Nina_6_knheb4.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962243/Nina_7_t9au8s.png"
             ],           
         "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Un projet que j'ai énormément apprécié. Il porte sur l'accessibilité et l'optimisation du SEO (référencement) d'un site web . Cela passait notamment par l'optimisation des images du site ainsi que des fichiers de code lui-même, la sémantique HTML et l'utilisation des ARIA labels pour renforcer l'accessibilité. Utilisation des outils comme Google lighthouse, Wave ainsi que des google rich snippets.",
-        "technologies":["HTML 5",
-                        "CSS 3",
-                        "JS"],
+        "technologies":[
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964057/html_yre93l.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964059/Js_mxiv9s.png"
+        ],
+        "alt":["HTML&CSS3 Javascript"],
         "link":["https://alexandregauthe.github.io/Projet_5_Nina_Carducci/"],
         "points":[
             "Débuggage d'un site web",
@@ -69,20 +73,20 @@
     {
         "id": "d32cs54t",
         "title": "Sophie Bluel, photographe",
-        "cover": "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121752&authkey=%21AIc9F32Dv4UdhUM&width=630&height=255",
+        "cover": "https://res.cloudinary.com/diy32kbiz/image/upload/v1718961740/Sophie_cover_ehwj9f.png",
         "pictures":[
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121750&authkey=%21ADwH7V1OwBy8y_s&width=850&height=344",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121749&authkey=%21APlFTVtEYW0K38s&width=850&height=348",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121748&authkey=%21AOcxNVYkIfoHWEs&width=850&height=374",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121751&authkey=%21ANTOhaZirSXfGZ4&width=850&height=390",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121753&authkey=%21ACUqXv9M3RnoHnk&width=850&height=386"
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962270/Sophie_1_icrdpe.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962271/Sophie_2_vrcobc.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962273/Sophie_3_atisqb.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962276/Sophie_4_azycob.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962275/Sophie_5_flmcoe.png"
         ],
         "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du développement d'un site de photographie avec Javascript. Il fallait utilisé Javascript afin de gérer la connexion de l'administrateur de site via un Json web token, et de récupérer des données et les afficher selon les besoins via une API",
         "technologies":[
-            "HTML 5",
-            "CSS 3",
-            "JS"
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964057/html_yre93l.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964059/Js_mxiv9s.png"
         ],
+        "alt": ["HTML&CSS3 Javascript"],
         "link": "https://github.com/AlexandreGauthe/Projet_3_JS.git",
         "points":[
             "Récupération, création et suppression de données avec JS et une api",
@@ -102,22 +106,23 @@
     {
         "id": "c66as78i",
         "title": "Kasa, Agence immobilière",
-        "cover": "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121720&authkey=%21ACZgtQE_IXKsKQQ&width=550&height=296",
+        "cover": "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962204/Kasa_1_vqfqay.png",
         "pictures":[
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121720&authkey=%21ACZgtQE_IXKsKQQ&width=550&height=296",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121722&authkey=%21ANxmle1ml-HoiW4&width=550&height=164",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121723&authkey=%21ANZ1KHHBoC50ROg&width=550&height=293",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121721&authkey=%21AEAki3paReKkhqk&width=550&height=256",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121726&authkey=%21AM3Qk_vNf3JCbtE&width=550&height=324",
-            "https://onedrive.live.com/embed?resid=91F849ED5F05CE92%2121724&authkey=%21AEg-swUr6y4TzkI&width=370&height=308"
-            ],
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962204/Kasa_1_vqfqay.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962205/Kasa_2_vodzbk.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962207/Kasa_3_mfseh1.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962208/Kasa_4_nvic0t.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962210/Kasa_5_q4zoxi.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718962211/Kasa_7_xtl5sv.png"
+        ],
         "description":"Projet réalisé dans le cadre de ma formation de développeur web chez Openclassrooms. Il s'agit du développement du front-end du site d'une agence immobilière réalisé avec le framework Javascript React. Utilisations du Jsx et des composants react, des propos, des hooks et du state afin d'afficher les différents éléments du site et de les mettre à jour selon les besoins. Utilisation de React router pour configurer la navigation à travers le site.",
         "technologies":[
-            "HTML 5",
-            "CSS 3",
-            "JS",
-            "React"
-            ],
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964057/html_yre93l.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964059/Js_mxiv9s.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964062/Sass_uljabm.png",
+            "https://res.cloudinary.com/diy32kbiz/image/upload/v1718964065/React_rwgwzr.png"
+        ],
+        "alt":["HTML ,CSS ,Javascript, SASS,React"],
         "link":["https://github.com/AlexandreGauthe/Projet_6_Kasa.git"],
         "points":[
             "Mise en place d'un evironnement de developpement React",
