@@ -49,7 +49,7 @@ export default function Projet(){
             </div>    
             <p className="description">{description}</p>
             <div className="project_text_block">
-                <h2 className="project_subtitle">Caractéristiques du projet :</h2>
+                <h2 className="project_subtitle">Caractéristiques du projet</h2>
                 <div className="project_boards">
                     <div className="main_points">
                         <h3>Points principaux du projet :</h3>
