@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
         <Routes>
-          <Route path='/Portfolio/#' element={<Home />}/>
+          <Route path='/Portfolio' element={<Home />}/>
           <Route path='/projet/:projetid' element={<Projet />} />
           <Route path='*' element={<Error />} /> 
         </Routes>
