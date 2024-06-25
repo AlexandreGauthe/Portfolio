@@ -1,45 +1,170 @@
 @import "./Variables.scss";
 
 header{
-        width: 100%;
-        height: 150px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background: radial-gradient(circle, rgba(87,135,199,1) 35%, rgba(52,124,212,0.9) 100%);
-        border-radius: 25px;
-        position: sticky;
-        top: 0;
-        .logo{
-            font-family: $main-font-familiy;
-            font-size: 2em;
-            width: 50%;
-            margin-left: 50px;
-            margin-top: -20px;
-            color: $third-text-color;
-            text-shadow: 2px 8px 6px rgba(0,0,0,0.5),
-                 0px -5px 35px rgba(255,255,255,0.3);
-        }
-            .menu{
-                margin-right: 50px;
-                display: flex;
-                gap: 20px;
-            }
-            .menu__link{
-                font-family: $secondary-font-family;
-                font-size: 2.5em;
-                font-weight: bold;
-                text-decoration: none;
-                color: $third-text-color;
-                text-shadow: -1px -1px 0px $secondary-text-color,
-                3px 3px 0px $secondary-text-color,
-                6px 6px 0px #00000055;
-            }
-            .menu__link:hover{
-                text-decoration: underline;
-                color : white;
-                transform: scale(1.0, 1.5);
-            }    
-       
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, rgba(87,135,199,1) 35%, rgba(52,124,212,0.9) 100%);
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    @media (max-width:1700px){
+        gap: 230px;
     }
+    @media (max-width:1350px){
+        gap: 0px;
+    }
+    @media (max-width:1024px){
+        height: 120px;
+    }
+    @media (max-width:768px){
+        height: 100px;
+    }
+    @media (max-width:583px){
+        height: 90px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    @media (max-width:375px){
+        height: 60px;
+    }
+    .logo{
+        font-family: $main-font-familiy;
+        font-size: 2em;
+        width: 50%;
+        margin-left: 50px;
+        margin-top: -20px;
+        color: $third-text-color;
+        text-shadow: 2px 8px 6px rgba(0,0,0,0.5),
+        0px -5px 35px rgba(255,255,255,0.3);
+        @media (max-width:1700px){
+            font-size: 1.6em;
+            width: 40%;
+        }
+        @media (max-width:1350px){
+            font-size: 1.2em;
+        }
+        @media (max-width:1024px){
+            font-size: 0.8em;
+            margin-top: -18px;
+        }
+        @media (max-width:1100px){
+            font-size: 1.1em;
+        }
+        @media (max-width:866px){
+            font-size: 0.9em;
+            width: 45%;
+            line-height: 35px;
+        }
+        @media (max-width:727px){
+            width: 40%;
+            font-size: 0.8em;
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        @media (max-width:580px){
+            font-size: 0.7em;
+        }
+        @media (max-width:550px){
+            width: 100%;
+            text-align: center;
+            margin-right: 50px;
+            margin-top: -10px;
+        }
+        @media (max-width:375px){
+            margin-top: -10px;
+            font-size: 0.6em;
+            margin-right: 30px;
+        }
+    }
+    
+    .menu{
+        margin-right: 50px;
+        display: flex;
+        gap: 20px;
+        @media (max-width:1700px){
+            width: 60%;
+            margin-right: 0px;
+            }
+        @media (max-width:1350px){
+            margin-left: 150px;
+            }
+        @media (max-width:1200px){
+            margin-left: 0px;
+            }
+        @media (max-width:1100px){
+            margin-left: 50px;
+            }
+        @media (max-width:866px){
+            margin-left: 0px;
+            }
+        @media (max-width:700px){
+            gap: 0px;
+            }
+        @media (max-width:550px){
+            width: 100%;
+            margin-top: 5px;
+            margin-left: 150px;
+            gap: 20px;
+            }
+        @media (max-width:460px){
+            margin: auto;
+            margin-left: 50px;
+            gap: 10px;
+            }
+        @media (max-width:380px){
+             margin-left: 25px;
+            }
+        @media (max-width:375px){
+            width: 95%;
+            gap: 5px;
+            margin-left: 50px;
+            margin-top: -8px;
+        }
+        @media (max-width:338px){
+            margin-left: 30px;
+        }
+        .menu__link{
+            font-family: $secondary-font-family;
+            font-size: 2.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: $third-text-color;
+            text-shadow: -1px -1px 0px $secondary-text-color,
+            3px 3px 0px $secondary-text-color,
+            6px 6px 0px #00000055;
+            @media (max-width:1350px){
+                font-size: 2em;
+            }
+            @media (max-width:1100px){
+                font-size: 1.5em;
+            }
+            @media (max-width:866px){
+                font-size: 1.2em;
+            }
+            @media (max-width: 700px){
+                margin-right: 13px;
+                font-size: 1em;
+            }
+            @media (max-width:583px){
+                text-shadow: none;
+            }
+            @media (max-width:450px){
+                font-size: 0.9em;
+            }
+            @media (max-width:375px){
+                font-size: 0.8em;
+            }
+                
+        }
+        .menu__link:hover{
+            text-decoration: underline;
+            color : white;
+            transform: scale(1.0, 1.5);
+        }    
+    }
+}
