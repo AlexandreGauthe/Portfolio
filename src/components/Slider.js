@@ -1,3 +1,4 @@
+// Composant Slider qui sera utilisé à deux endroits différents, pour la page d'acceuil et les pages des différents projets //
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronRight} from '@fortawesome/free-solid-svg-icons';

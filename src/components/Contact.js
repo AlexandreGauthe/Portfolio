@@ -7,9 +7,7 @@ import { useState } from "react";
 
 export const Contact = () => {
 	const [currentClass, setCurrentClass] = useState("success");
-    const [invisible, setInvisible] = useState(true);
-	const form = useRef();
-	
+    const form = useRef();
 	const sendEmail = (e) => {
     	e.preventDefault();
 		emailjs.sendForm("service_rpo3a7l", "template_fem8t6w", form.current, {
@@ -17,7 +15,6 @@ export const Contact = () => {
       })
 	  	if(currentClass === "success"){
 			setCurrentClass("success--show")
-			setInvisible(false)
 			setTimeout(() => {
 				setCurrentClass("success");
 				}, 5000);
