@@ -13,7 +13,7 @@ root.render(
     <Router>
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='Portfolio/projet/:projetid' element={<Projet />} />
+          <Route path='/projet/:projetid' element={<Projet />} />
           <Route path='*' element={<Error />} /> 
         </Routes>
     </Router>
