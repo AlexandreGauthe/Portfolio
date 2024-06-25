@@ -22,7 +22,7 @@ export default function Projet(){
             navigate("/error");
         }else {
             document.title = `${selectedProject.title}`;
-            }},[selectedProject,navigate("/Portfolio/projet/"+{projetid})]);
+            }},[selectedProject,navigate()]);
     
     if(!selectedProject) {return null;};
 
