@@ -14,7 +14,7 @@ root.render(
         <Routes>
           <Route path='/Portfolio' element={<Home />}/>
           <Route path='/projet/:projetid' element={<Projet />} />
-          <Route path='*' element={<Error />} /> 
+          <Route path='/Porfolio/*' element={<Error />} /> 
         </Routes>
     </Router>
     </React.StrictMode>,
