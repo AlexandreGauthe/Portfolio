@@ -1,4 +1,7 @@
 // Page sur laquelle sera affiché le projet choisi sur la page d'acceuil //
+// Utilsiation de useParams pour récuperer l'id du projet choisi via l'url, cet id est ensuite rechercher via "find" dans le fichier JSON//
+// Si l'id correspond à l'un de ceux du ficher de données l'utilisateur est redirigié sur cette page ou il retrouvera toutes les informations du projet en qestion //
+// Sinon il est redirigé sur la page d'erreur //
 
 import React from "react";
 import { useState } from "react";
@@ -25,7 +28,6 @@ export default function Projet(){
             }},[selectedProject,navigate()]);
     
     if(!selectedProject) {return null;};
-
     const {title,description,pictures,technologies,link,points,diffculties,solutions,alt} = selectedProject;
     const points_list = points.map((point) => <li>{point}</li>);
     const diffculties_list = diffculties.map((diffculty) => <li>{diffculty}</li>);
