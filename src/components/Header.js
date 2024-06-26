@@ -10,9 +10,9 @@ export default function Header(props){
             </div>    
             <nav className="menu">
                 <HashLink  className="menu__link" to="/Portfolio/#accueil">Accueil</HashLink>
-                <HashLink  className="menu__link" to="#about">A propos</HashLink>
-                <HashLink  className="menu__link" to="#projet">Projets</HashLink>
-                <HashLink  className="menu__link" to="#contact">Contact</HashLink>
+                <HashLink  className="menu__link" to="/Portfolio/#about">A propos</HashLink>
+                <HashLink  className="menu__link" to="/Portfolio/#projet">Projets</HashLink>
+                <HashLink  className="menu__link" to="/Portfolio/#contact">Contact</HashLink>
             </nav>
         </header>    
     )
