@@ -11,11 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router basename='/Portfolio'>
-        <Routes>
-          <Route exact path='/Portfolio' element={<Home />}/>
-          <Route path='/projet/:projetid' element={<Projet />} />
-          <Route path='*' element={<Error />} /> 
-        </Routes>
+      <Routes>
+        <Route exact path='/Portfolio' element={<Home />}/>
+        <Route path='/projet/:projetid' element={<Projet />} />
+        <Route path='/*' element={<Error />} /> 
+      </Routes>
     </Router>
     </React.StrictMode>,
 );
