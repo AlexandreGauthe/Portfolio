@@ -8,7 +8,7 @@ export default function Error(){
     return (
         <div className="error_block">
                 <p className="error_message"> Désolé la page ou la ressource demandée n'existe pas ...</p>
-                <Link className="error__link" to="/Portfolio">Retourner à la page d'accueil</Link>
+                <Link className="error__link" to="/">Retourner à la page d'accueil</Link>
         </div>
     )
 }
