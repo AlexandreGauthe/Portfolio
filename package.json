@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://AlexandreGauthe.github.io/Portfolio",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
