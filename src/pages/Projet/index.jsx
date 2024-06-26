@@ -19,7 +19,7 @@ export default function Projet(){
     
     useEffect(() =>{ 
         if (!selectedProject){
-            navigate("Portfolio/error");
+            navigate("/Portfolio/error");
         }else {
             document.title = `${selectedProject.title}`;
             }},[selectedProject,navigate()]);
