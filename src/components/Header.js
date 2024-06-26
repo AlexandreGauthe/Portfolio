@@ -9,10 +9,10 @@ export default function Header(props){
                 <h1>Alexandre Gauthe</h1>
             </div>    
             <nav className="menu">
-                <HashLink  className="menu__link" to="https://AlexandreGauthe.github.io/Portfolio/#accueil">Accueil</HashLink>
-                <HashLink  className="menu__link" to="https://AlexandreGauthe.github.io/Portfolio/#about">A propos</HashLink>
-                <HashLink  className="menu__link" to="https://AlexandreGauthe.github.io/Portfolio/#projet">Projets</HashLink>
-                <HashLink  className="menu__link" to="https://AlexandreGauthe.github.io/Portfolio/#contact">Contact</HashLink>
+                <HashLink  className="menu__link" to="/Portfolio/#accueil">Accueil</HashLink>
+                <HashLink  className="menu__link" to="#about">A propos</HashLink>
+                <HashLink  className="menu__link" to="#projet">Projets</HashLink>
+                <HashLink  className="menu__link" to="#contact">Contact</HashLink>
             </nav>
         </header>    
     )
