@@ -18,10 +18,13 @@ export default function Projet(){
     const selectedProject = projets.find((projet) => projet.id === projetid);
     
     useEffect(() =>{ 
-        if (selectedProject){
+        if (!selectedProject){
+            navigate("/error");
+        }else {
             document.title = `${selectedProject.title}`;
-        }},[selectedProject,navigate()]);
-        if(!selectedProject) {return null;};
+            }},[selectedProject,navigate()]);
+    
+    if(!selectedProject) {return null;};
 
     const {title,description,pictures,technologies,link,points,diffculties,solutions,alt} = selectedProject;
     const points_list = points.map((point) => <li>{point}</li>);
